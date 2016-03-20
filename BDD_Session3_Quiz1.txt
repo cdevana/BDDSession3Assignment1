@@ -1,0 +1,81 @@
+Session 3 - Assignment 1
+
+1. HDFS is built around the idea that data is written ___ but read many times.
+	a. many
+	b. twice
+	c. data already exists
+	d. once
+	
+	Answer: d. once
+	
+2. Hadoop divides input into fixed size pieces called what?
+	a. output result
+	b. input splits
+	c. input data
+	d. input blogs
+	
+	Answer: b. input splits
+	
+3. All the blocks are replicated in other nodes for ___
+	a. security
+	b. big data
+	c. pool
+	d. fault tolerance
+	
+	Answer: d. fault tolerance
+	
+4. Block size can be changed using the properties in ___
+	a. core-site.xml
+	b. Hadoop-env.xml
+	c. hdfs-site.xml
+	d. yarn-site.xml
+	
+	Answer: c. hdfs-site.xml
+	
+5. Hadoop uses the ___ representation of the data stored in the file blocks known as Input splits.
+	a. physical
+	b. logical
+	c. mechanical
+	d. none
+	
+	Answer: b. logical
+	
+6. DFS calls NameNode to create file in file system's ___
+	a. dataspace
+	b. resourcespace
+	c. namespace
+	d. nodespace
+	
+	Answer: c. namespace
+	
+7. Data packets are streamed to first DataNode in the ___
+	a. handshake
+	b. pipeline
+	c. hard disk
+	d. hdfs
+	
+	Answer: b. pipeline
+	
+8. The client has finished writing data, it calls ___ on the stream
+	a. close()
+	b. read()
+	c. open()
+	d. check()
+	
+	Answer: a. close()
+	
+9. Blocks are read in order, with the ___ opening new connections to datanodes as the client reads throught the stream.
+	a. DFSoutputstream
+	b. DFSInputStream
+	c. DFStrackManager
+	d. DFSStringConcatenation
+	
+	Answer: a. DFSoutputstream
+	
+10. If I have 100 input splits, how many maps will run?
+	a. 200
+	b. 50
+	c. 100
+	d. 1
+	
+	Answer: c. 100
